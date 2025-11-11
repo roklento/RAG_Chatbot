@@ -1,0 +1,32 @@
+# Core Transformers and LLM
+git+https://github.com/huggingface/transformers.git@main
+torch>=2.0.0
+sentence-transformers>=2.7.0
+accelerate>=0.25.0
+
+# LangChain Ecosystem
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.20
+langchain-qdrant>=0.1.0
+
+# LlamaIndex Ecosystem
+llama-index>=0.14.7
+llama-index-core>=0.14.7
+llama-index-vector-stores-qdrant>=0.1.0
+llama-index-embeddings-huggingface>=0.1.0
+
+# Vector Database
+qdrant-client>=1.10.0
+fastembed>=0.3.0
+
+# Utilities
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+numpy>=1.24.0
+tqdm>=4.65.0
+
+# Optional: For production deployment
+# vllm>=0.3.0
+# sglang>=0.1.0

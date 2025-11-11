@@ -1,0 +1,122 @@
+[
+  {
+    "question": "Rise Online nedir?",
+    "answer": "Rise Online, Türk yapımı bir MMORPG (Massively Multiplayer Online Role-Playing Game) oyunudur. 2013 yılında yayınlanmıştır ve fantastik bir ortamda geçer. Oyuncular farklı karakterler oluşturabilir, görevler tamamlayabilir, canavarlarla savaşabilir ve diğer oyuncularla etkileşime girebilir."
+  },
+  {
+    "question": "Rise Online'da kaç karakter sınıfı var?",
+    "answer": "Rise Online'da 3 ana karakter sınıfı bulunmaktadır: Savaşçı (Warrior), Büyücü (Mage) ve Okçu (Archer). Her sınıfın kendine özgü yetenekleri, güçlü ve zayıf yönleri vardır. Savaşçılar yakın dövüşte güçlüdür, büyücüler büyü saldırıları yapar, okçular ise uzaktan saldırılarda uzmandır."
+  },
+  {
+    "question": "Savaşçı sınıfı nasıl oynanır?",
+    "answer": "Savaşçı sınıfı, yüksek savunma ve can puanına sahip yakın dövüş uzmanıdır. Ağır zırh giyebilir ve kılıç, balta gibi yakın dövüş silahları kullanır. Tank rolünde oynamak için idealdir. Grup oyunlarında ön saflarda durarak takım arkadaşlarını korur. Güç (Strength) ve Dayanıklılık (Stamina) özniteliklerine yatırım yapılmalıdır."
+  },
+  {
+    "question": "Büyücü sınıfı nasıl oynanır?",
+    "answer": "Büyücü sınıfı, güçlü büyü saldırıları yapabilen ancak düşük savunmaya sahip bir sınıftır. Alan hasarı (AoE) saldırılarında çok etkilidir. Asa ve değnek gibi büyü silahları kullanır. Zeka (Intelligence) özniteliğine odaklanmalıdır. Uzaktan kalarak büyüler atmalı ve düşmanlarla arasında mesafe bırakmalıdır."
+  },
+  {
+    "question": "Okçu sınıfı nasıl oynanır?",
+    "answer": "Okçu sınıfı, uzun menzilli saldırılarda uzmanlaşmış dengeli bir sınıftır. Yay ve tüfek kullanabilir. Orta seviye savunma ve saldırı gücüne sahiptir. Çeviklik (Agility) özniteliği okçular için en önemli özelliktir. Kritik vuruş şansı yüksektir ve hızlı hareket edebilir."
+  },
+  {
+    "question": "Rise Online'da seviye nasıl atlanır?",
+    "answer": "Rise Online'da seviye atlamanın birkaç yolu vardır: 1) Canavarları öldürerek deneyim puanı (XP) kazanmak - en yaygın yöntem, 2) Görevleri (quest) tamamlamak - büyük miktarda XP verir, 3) Zindanları (dungeon) tamamlamak - grup halinde yapılır ve yüksek XP verir, 4) PvP (oyuncu vs oyuncu) savaşları - arena ve savaş alanlarında. Seviye atladıkça yeni bölgeler, görevler ve yetenekler açılır."
+  },
+  {
+    "question": "Quest sistemi nasıl çalışır?",
+    "answer": "Quest (görev) sistemi oyuncuların ilerlemesini sağlayan ana mekanizmalardan biridir. NPC'lerden (oyun içi karakterler) görev alınır. Görevler genellikle canavar öldürme, eşya toplama veya belirli bir yere gitme içerir. Quest tamamlandığında deneyim puanı, altın ve eşya ödülü verilir. Ana görevler (main quest) hikayeyi ilerletir, yan görevler (side quest) ek ödüller sağlar."
+  },
+  {
+    "question": "Crafting sistemi nedir?",
+    "answer": "Crafting (işçilik) sistemi, oyuncuların hammaddelerden silah, zırh ve eşya üretmesini sağlar. Farklı meslek kolları vardır: Demircilik (silah ve zırh üretimi), Terzilik (deri zırhlar), Simyacılık (iksir ve potlar). Hammaddeler canavarlardan düşer veya madencilik ile toplanır. Crafting seviyesi yükseldikçe daha güçlü eşyalar üretilebilir."
+  },
+  {
+    "question": "PvP sistemi nasıl çalışır?",
+    "answer": "PvP (Player vs Player - Oyuncu vs Oyuncu) sistemi, oyuncuların birbirleriyle savaşmasını sağlar. Arena modunda 1v1 veya takım dövüşleri yapılır. Savaş alanlarında (battlefield) büyük çaplı savaşlar olur. PvP'de başarılı olmak için ekipman, yetenekler ve strateji önemlidir. PvP puanı kazanarak sıralamada yükselirsiniz ve özel ödüller alırsınız."
+  },
+  {
+    "question": "Guild sistemi nedir?",
+    "answer": "Guild (lonca) sistemi, oyuncuların gruplar oluşturarak birlikte oynamasını sağlar. Guild'e katılmak için davet gerekir veya kendi guild'inizi kurabilirsiniz. Guild üyeleri birlikte görevler yapar, zindan girer ve PvP savaşlarına katılır. Guild seviyesi arttıkça bonuslar açılır. Guild savaşları düzenlenir ve toprak hakimiyeti için mücadele edilir."
+  },
+  {
+    "question": "Yetenek ağacı (skill tree) nasıl çalışır?",
+    "answer": "Yetenek ağacı, karakterinizin yeteneklerini özelleştirmenizi sağlar. Her seviyede yetenek puanı kazanırsınız. Bu puanları farklı yeteneklere yatırabilirsiniz. Her sınıfın kendine özel yetenek ağacı vardır. Saldırı, savunma ve destek yetenekleri bulunur. Yetenek noktalarını stratejik şekilde dağıtmak önemlidir çünkü yeniden ayarlama (reset) maliyetlidir."
+  },
+  {
+    "question": "Ekipman nasıl geliştirilir?",
+    "answer": "Ekipman geliştirme (upgrade/enhancement) sistemi ile silah ve zırhlarınızı güçlendirebilirsiniz. Geliştirme taşları ve altın kullanılır. Her başarılı geliştirme ekipmanın özelliklerini artırır. Ancak başarısızlık riski vardır ve ekipman kırılabilir. +1'den +15'e kadar geliştirme yapılabilir. Yüksek seviyelerde başarı şansı düşer ve koruma taşları kullanmak önerilir."
+  },
+  {
+    "question": "Zindan (dungeon) nedir?",
+    "answer": "Zindan (dungeon), grup halinde girilip tamamlanan zorlayıcı içeriklerdir. Güçlü canavarlar ve boss'lar içerir. 5 kişilik grup önerilir: 1 tank (savaşçı), 1 healer, 3 DPS (hasar veren). Zindanları tamamlamak yüksek deneyim ve nadir eşyalar kazandırır. Günlük zindan limiti vardır. Farklı zorluk seviyeleri bulunur: Normal, Hard, ve Extreme."
+  },
+  {
+    "question": "Ekonomi sistemi nasıl çalışır?",
+    "answer": "Rise Online'da oyuncu odaklı bir ekonomi sistemi vardır. Para birimi altındır. Altın kazanma yolları: canavar öldürme, quest tamamlama, eşya satma. Pazar yeri (marketplace) üzerinden oyuncular arası ticaret yapılır. Nadir eşyalar yüksek fiyatlara satılır. Açık artırma (auction house) sistemi vardır. Fiyatlar arz-talebe göre değişir."
+  },
+  {
+    "question": "Pet sistemi nedir?",
+    "answer": "Pet (evcil hayvan) sistemi, oyuncuların yardımcı yaratıklar edinmesini sağlar. Pet'ler savaşta yardım eder, eşya taşır ve bonus özellikler sağlar. Pet'ler seviye kazanır ve geliştirilir. Farklı türler vardır: saldırı petleri, savunma petleri, destek petleri. Pet yemle beslenmeli ve bakımı yapılmalıdır. Nadir pet'ler özel etkinliklerden veya yüksek seviye içeriklerden elde edilir."
+  },
+  {
+    "question": "Mount sistemi nasıl çalışır?",
+    "answer": "Mount (binek) sistemi, oyuncuların haritada hızlı hareket etmesini sağlar. Atlar, ejderhalar ve fantastik yaratıklar binek olarak kullanılabilir. Mount'lar farklı hızlara sahiptir. Mount seviyesi arttırılabilir ve daha hızlı hareket sağlar. Bazı mount'lar savaşta kullanılabilir. Nadir mount'lar prestij sağlar ve özel etkinliklerden kazanılır."
+  },
+  {
+    "question": "Öznitelik (stat) dağılımı nasıl yapılmalı?",
+    "answer": "Öznitelik dağılımı karakterinizin gücünü belirler. Ana öznitelikler: Güç (Strength - fiziksel hasar), Çeviklik (Agility - kritik ve isabet), Dayanıklılık (Stamina - can puanı), Zeka (Intelligence - büyü hasarı), Ruh (Spirit - mana). Savaşçılar için Güç ve Dayanıklılık, Büyücüler için Zeka ve Ruh, Okçular için Çeviklik önceliklidir. Dengeli dağılım yerine sınıfınıza uygun özel dağılım yapın."
+  },
+  {
+    "question": "Başlangıç seviyelerinde ne yapmalıyım?",
+    "answer": "Başlangıç seviyelerinde (1-20) şunlara odaklanın: 1) Ana görevi (main quest) takip edin - yol gösterir ve hızlı XP verir, 2) Başlangıç bölgesindeki tüm questleri tamamlayın, 3) Öznitelik noktalarını doğru dağıtın, 4) Temel yetenekleri öğrenin ve kullanın, 5) Ekipmanınızı düzenli güncelleyin, 6) İksir ve pot stoklayin. Acele etmeyin, oyun mekaniklerini öğrenin."
+  },
+  {
+    "question": "Endgame içeriği nedir?",
+    "answer": "Endgame (son seviye) içeriği, maksimum seviyeye ulaştıktan sonra yapılacak aktivitelerdir: 1) Yüksek seviye zindanlar ve raid'ler, 2) PvP sıralamaları ve turnuvalar, 3) Legendary (efsanevi) ekipman toplama, 4) Guild savaşları ve kale kuşatmaları, 5) Günlük ve haftalık görevler, 6) Özel etkinlikler ve sezon içerikleri. Endgame'de ekip çalışması ve strateji çok önemlidir."
+  },
+  {
+    "question": "Etkinlikler (events) nelerdir?",
+    "answer": "Etkinlikler, belirli zamanlarda düzenlenen özel içeriklerdir: 1) Haftalık boss etkinlikleri - güçlü boss'lara karşı toplu savaş, 2) Çift XP hafta sonları - hızlı seviye atlama, 3) Sezonluk etkinlikler - özel temalar ve ödüller, 4) PvP turnuvaları - büyük ödüller, 5) Toplama etkinlikleri - özel eşyalar kazanma şansı. Etkinliklere katılmak nadir ödüller ve hızlı ilerleme sağlar."
+  },
+  {
+    "question": "Ticaret sistemi nasıl kullanılır?",
+    "answer": "Ticaret sistemi oyuncular arası eşya alış-verişini sağlar. İki yöntem vardır: 1) Direkt ticaret - oyuncuyla yüz yüze ticaret penceresi açılır, 2) Pazar yeri (marketplace) - eşyaları listeleyip satabilirsiniz. Pazar yerinde satış komisyonu alınır. Fiyatları karşılaştırarak iyi anlaşmalar bulabilirsiniz. Dolandırıcılıktan kaçının, işlemleri dikkatli yapın."
+  },
+  {
+    "question": "Büyü kitapları nedir?",
+    "answer": "Büyü kitapları (spell books) yeni yetenekler ve büyüler öğretir. Canavarlardan düşebilir, questlerden kazanılır veya satın alınır. Kitap kullanılınca yetenek kalıcı olarak öğrenilir. Farklı seviye gereksinimleri vardır. Nadir kitaplar güçlü yetenekler verir. Bazı kitaplar sadece belirli sınıflar tarafından kullanılabilir."
+  },
+  {
+    "question": "Rün (rune) sistemi nedir?",
+    "answer": "Rün sistemi, ekipmana ekstra özellikler eklemenizi sağlar. Rünler slotlara yerleştirilir. Farklı türler vardır: saldırı rünleri, savunma rünleri, özel etki rünleri. Yüksek seviye ekipmanlarda daha fazla rün slotu bulunur. Rünler çıkarılıp değiştirilebilir. Doğru rün kombinasyonu karakterinizi güçlendirir."
+  },
+  {
+    "question": "Can ve mana yönetimi nasıl yapılır?",
+    "answer": "Can (HP) ve mana (MP) yönetimi hayatta kalmak için kritiktir. İksirler (potion) kullanarak hızlıca can/mana yükleyin. Kısa tuşlara (hotkey) atayın. Savaş sırasında panik yapmayın ve zamanında iksir kullanın. Yüksek kalite iksirler daha fazla can/mana verir. Toplama mesleği ile kendi iksirlerinizi yapabilirsiniz. Stokta bol iksir bulundurun."
+  },
+  {
+    "question": "Parti (group) oyunu nasıl oynanır?",
+    "answer": "Parti oyunu, diğer oyuncularla grup oluşturarak oynamaktır. Parti lideri davet gönderir. Deneyim ve loot paylaşılır. Roller önemlidir: Tank (hasarı çeker), DPS (hasar verir), Healer (iyileştirir). İletişim çok önemli - sohbet veya ses iletişimi kullanın. Koordineli oynayın ve takım arkadaşlarınızı destekleyin. Zorlu içerikler parti ile daha kolay tamamlanır."
+  },
+  {
+    "question": "Boss savaşları nasıl kazanılır?",
+    "answer": "Boss savaşları strateji ve hazırlık gerektirir: 1) Boss mekaniklerini öğrenin - saldırı paternleri, 2) Doğru ekipman ve iksir hazırlayın, 3) Parti kompozisyonuna dikkat edin, 4) Özel saldırılardan kaçının, 5) Healer'ı koruyun, 6) DPS'ler yüksek hasar versin ama aggro çekmesin. Boss'un canı belirli seviyelere düşünce özel fazlar başlar - bunlara hazırlıklı olun."
+  },
+  {
+    "question": "Altın (gold) nasıl kazanılır?",
+    "answer": "Altın kazanma yöntemleri: 1) Canavar öldürme - özellikle yüksek seviye canavarlar, 2) Questler - bazıları iyi altın verir, 3) Zindan tamamlama - yüksek ödüller, 4) Eşya satma - nadir eşyaları pazar yerinde satın, 5) Crafting - yaptığınız eşyaları satın, 6) Günlük görevler - her gün altın kazanın, 7) Ticaret - ucuza alıp pahalıya satın. Altınınızı akıllıca harcayın."
+  },
+  {
+    "question": "Set eşyaları nedir?",
+    "answer": "Set eşyaları, birlikte giyildiğinde ekstra bonuslar veren ekipman parçalarıdır. Genellikle 4-6 parça vardır: miğfer, zırh, eldivenler, pantolonlar, botlar, silah. 2 parça, 4 parça ve tam set bonusları bulunur. Set bonusları güçlü özellikler sağlar: can artışı, hasar bonusu, kritik şansı. Yüksek seviye setleri zindan ve raid'lerden düşer."
+  },
+  {
+    "question": "Envanter yönetimi nasıl yapılmalı?",
+    "answer": "Envanter (inventory) yönetimi önemlidir çünkü sınırlı slotunuz vardır: 1) Gereksiz eşyaları satın veya atın, 2) Önemli eşyaları bankaya koyun - güvenli saklama, 3) İksir ve materyalleri gruplandırın, 4) Envanter genişletme satın alın, 5) Toplama yaparken yer bırakın. Düzenli envanter temizliği yapın. Nadir eşyaları yanlışlıkla satmayın veya atmayın."
+  },
+  {
+    "question": "PvE ve PvP arasındaki fark nedir?",
+    "answer": "PvE (Player vs Environment), oyuncuların yapay zeka kontrollü düşmanlarla (canavarlar, boss'lar) savaşmasıdır. Quest, zindan ve leveling PvE'dir. PvP (Player vs Player), oyuncuların birbirleriyle savaşmasıdır. Arena, savaş alanları ve guild savaşları PvP'dir. PvE daha öğrenme odaklı, PvP rekabetçidir. Her ikisi için farklı ekipman ve stratejiler gerekir."
+  }
+]

@@ -71,19 +71,19 @@ class QueryProcessor:
         Returns:
             Formatted prompt for correction
         """
-        return f"""You are a helpful assistant that corrects spelling and grammar errors in search queries.
+        return f"""Arama sorgularındaki yazım ve dilbilgisi hatalarını düzelten yardımcı bir asistansın.
 
-Task: Correct any spelling or grammar mistakes in the following query, but keep the meaning and intent exactly the same. If the query is already correct, return it as-is.
+Görev: Aşağıdaki sorgudaki yazım veya dilbilgisi hatalarını düzelt, ancak anlamı ve amacı tamamen aynı tut. Sorgu zaten doğruysa, olduğu gibi döndür.
 
-Rules:
-- Fix only obvious spelling and grammar errors
-- Maintain the original intent and meaning
-- Do not add extra information
-- Return ONLY the corrected query, nothing else
+Kurallar:
+- Sadece bariz yazım ve dilbilgisi hatalarını düzelt
+- Orijinal amaç ve anlamı koru
+- Ekstra bilgi ekleme
+- SADECE düzeltilmiş sorguyu döndür, başka hiçbir şey yazma
 
-Query: {query}
+Sorgu: {query}
 
-Corrected query:"""
+Düzeltilmiş sorgu:"""
 
     def _create_diversification_prompt(self, query: str, num_variants: int) -> str:
         """
@@ -96,20 +96,20 @@ Corrected query:"""
         Returns:
             Formatted prompt for diversification
         """
-        return f"""You are a helpful assistant that generates alternative versions of search queries to improve retrieval.
+        return f"""Arama sorgularının alternatif versiyonlarını oluşturarak aramayı iyileştiren yardımcı bir asistansın.
 
-Task: Generate {num_variants} different versions of the following query that maintain the same meaning but use different wording and perspectives.
+Görev: Aşağıdaki sorgunun aynı anlamı koruyan ancak farklı kelimeler ve bakış açıları kullanan {num_variants} farklı versiyonunu oluştur.
 
-Rules:
-- Each variant should ask for the same information in a different way
-- Use synonyms, different phrase structures, or alternative formulations
-- Keep the same intent and meaning
-- Make the variants diverse from each other
-- Return ONLY the variants, one per line, numbered 1-{num_variants}
+Kurallar:
+- Her varyant aynı bilgiyi farklı şekilde sormalı
+- Eş anlamlı kelimeler, farklı cümle yapıları veya alternatif ifadeler kullan
+- Aynı amaç ve anlamı koru
+- Varyantları birbirinden farklı yap
+- SADECE varyantları döndür, her satırda bir tane, 1-{num_variants} arası numaralandırılmış
 
-Original query: {query}
+Orijinal sorgu: {query}
 
-Generate {num_variants} alternative versions:"""
+{num_variants} alternatif versiyon oluştur:"""
 
     def _generate_response(self, prompt: str) -> str:
         """

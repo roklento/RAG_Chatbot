@@ -54,9 +54,9 @@ class QwenReranker:
         self.max_length = max_length
         self.batch_size = batch_size
 
-        # Default instruction based on Qwen3-Reranker documentation
+        # Default instruction for chatbot context
         self.default_instruction = default_instruction or (
-            "Given a web search query, retrieve relevant passages that answer the query"
+            "Kullanıcı sorusuna en uygun ve yardımcı olan bilgileri belirle"
         )
 
         # Load tokenizer and model

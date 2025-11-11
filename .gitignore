@@ -51,6 +51,9 @@ data/*.json
 data/*.csv
 data/*.txt
 !data/.gitkeep
+# Allow sample datasets for demo
+!data/rise_online_qa_pairs.json
+!data/rise_online_plain_text.json
 
 # Logs
 *.log

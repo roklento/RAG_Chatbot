@@ -31,7 +31,7 @@ def test_query_processor():
     )
 
     # Test query with typo
-    query = "What is masheen lerning and how dose it work?"
+    query = "Makine öğrenmsi ndir ve nasıl çalşır?"
     print(f"Original Query: {query}\n")
 
     result = processor.process(query)
@@ -58,9 +58,9 @@ def test_embedding_model():
 
     # Test embedding
     texts = [
-        "Machine learning is awesome",
-        "AI is transforming the world",
-        "The weather is nice today",
+        "Makine öğrenmesi harika bir teknolojidir",
+        "Yapay zeka dünyayı dönüştürüyor",
+        "Bugün hava çok güzel",
     ]
 
     print("Texts to embed:")
@@ -100,13 +100,13 @@ def test_reranker():
         device=settings.device,
     )
 
-    query = "What is machine learning?"
+    query = "Makine öğrenmesi nedir?"
     documents = [
-        "Machine learning is a subset of AI that enables systems to learn from data.",
-        "The weather forecast predicts rain tomorrow.",
-        "Deep learning uses neural networks with multiple layers.",
-        "Cooking pasta requires boiling water and salt.",
-        "Supervised learning uses labeled training data.",
+        "Makine öğrenmesi, sistemlerin verilerden öğrenmesini sağlayan yapay zekanın bir alt kümesidir.",
+        "Hava durumu tahmini yarın yağmur olacağını gösteriyor.",
+        "Derin öğrenme, çok katmanlı sinir ağları kullanır.",
+        "Makarna pişirmek için kaynar su ve tuz gerekir.",
+        "Denetimli öğrenme, etiketlenmiş eğitim verisi kullanır.",
     ]
 
     print(f"Query: {query}\n")
@@ -151,9 +151,9 @@ def test_hybrid_retriever():
 
     # Test multi-query search
     queries = [
-        "What is machine learning?",
-        "Explain ML concepts",
-        "How does machine learning work?",
+        "Makine öğrenmesi nedir?",
+        "Makine öğrenmesi kavramlarını açıkla",
+        "Makine öğrenmesi nasıl çalışır?",
     ]
 
     print("Query Variants:")

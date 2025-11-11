@@ -45,24 +45,24 @@ def main():
     # Sample Q&A pairs
     qa_pairs = [
         {
-            "question": "What is machine learning?",
-            "answer": "Machine learning is a subset of artificial intelligence that enables systems to learn and improve from experience without being explicitly programmed."
+            "question": "Makine öğrenmesi nedir?",
+            "answer": "Makine öğrenmesi, sistemlerin açıkça programlanmadan deneyimlerden öğrenmesini ve gelişmesini sağlayan yapay zekanın bir alt kümesidir."
         },
         {
-            "question": "What is the difference between supervised and unsupervised learning?",
-            "answer": "Supervised learning uses labeled data to train models, while unsupervised learning finds patterns in unlabeled data."
+            "question": "Denetimli ve denetimsiz öğrenme arasındaki fark nedir?",
+            "answer": "Denetimli öğrenme, modelleri eğitmek için etiketlenmiş veri kullanırken, denetimsiz öğrenme etiketlenmemiş verilerde desenler bulur."
         },
         {
-            "question": "What is a neural network?",
-            "answer": "A neural network is a computing system inspired by biological neural networks, consisting of interconnected nodes (neurons) organized in layers."
+            "question": "Yapay sinir ağı nedir?",
+            "answer": "Yapay sinir ağı, biyolojik sinir ağlarından esinlenen, katmanlar halinde düzenlenmiş birbirine bağlı düğümlerden (nöronlar) oluşan bir hesaplama sistemidir."
         },
         {
-            "question": "What is deep learning?",
-            "answer": "Deep learning is a subset of machine learning that uses neural networks with multiple layers (deep neural networks) to learn complex patterns."
+            "question": "Derin öğrenme nedir?",
+            "answer": "Derin öğrenme, karmaşık desenleri öğrenmek için çok katmanlı sinir ağları (derin sinir ağları) kullanan makine öğrenmesinin bir alt kümesidir."
         },
         {
-            "question": "What is natural language processing?",
-            "answer": "Natural Language Processing (NLP) is a branch of AI that helps computers understand, interpret, and generate human language."
+            "question": "Doğal dil işleme nedir?",
+            "answer": "Doğal Dil İşleme (NLP), bilgisayarların insan dilini anlamasına, yorumlamasına ve üretmesine yardımcı olan yapay zekanın bir dalıdır."
         },
     ]
 
@@ -73,19 +73,19 @@ def main():
 
     # Sample plain text documents
     plain_texts = [
-        "Transformers are a type of neural network architecture introduced in the 'Attention is All You Need' paper. They use self-attention mechanisms to process sequential data and have become the foundation for modern NLP models like BERT and GPT.",
+        "Transformer'lar, 'Attention is All You Need' makalesinde tanıtılan bir sinir ağı mimarisi türüdür. Sıralı verileri işlemek için öz-dikkat mekanizmaları kullanırlar ve BERT ve GPT gibi modern NLP modellerinin temeli haline gelmişlerdir.",
 
-        "The attention mechanism allows models to focus on relevant parts of the input when making predictions. It computes attention weights that determine how much focus to place on different parts of the input sequence.",
+        "Dikkat mekanizması, modellerin tahmin yaparken girdinin ilgili kısımlarına odaklanmasını sağlar. Girdi dizisinin farklı bölümlerine ne kadar odaklanılacağını belirleyen dikkat ağırlıklarını hesaplar.",
 
-        "BERT (Bidirectional Encoder Representations from Transformers) is a pre-trained language model that learns bidirectional context by training on masked language modeling and next sentence prediction tasks.",
+        "BERT (Bidirectional Encoder Representations from Transformers), maskelenmiş dil modelleme ve sonraki cümle tahmin görevleri üzerinde eğitilerek çift yönlü bağlamı öğrenen önceden eğitilmiş bir dil modelidir.",
 
-        "GPT (Generative Pre-trained Transformer) is an autoregressive language model that generates text by predicting the next token given previous tokens. It is trained on large amounts of text data.",
+        "GPT (Generative Pre-trained Transformer), önceki token'lar verildiğinde bir sonraki token'ı tahmin ederek metin üreten otoregresif bir dil modelidir. Büyük miktarda metin verisi üzerinde eğitilir.",
 
-        "Fine-tuning is the process of taking a pre-trained model and training it on a specific task with task-specific data. This allows leveraging knowledge learned during pre-training for downstream tasks.",
+        "İnce ayar (fine-tuning), önceden eğitilmiş bir modeli alıp göreve özgü verilerle belirli bir görev üzerinde eğitme sürecidir. Bu, ön eğitim sırasında öğrenilen bilginin alt görevler için kullanılmasını sağlar.",
 
-        "Vector embeddings are numerical representations of text that capture semantic meaning. Similar texts have similar embeddings in the vector space, enabling semantic search and similarity comparisons.",
+        "Vektör gömmeleri (embeddings), semantik anlamı yakalayan metinlerin sayısal temsilleridir. Benzer metinler, vektör uzayında benzer gömmelere sahiptir ve bu da semantik arama ve benzerlik karşılaştırmalarını mümkün kılar.",
 
-        "RAG (Retrieval-Augmented Generation) combines retrieval systems with generative models. It retrieves relevant documents from a knowledge base and uses them to generate more accurate and informed responses.",
+        "RAG (Retrieval-Augmented Generation), geri getirme sistemlerini üretken modellerle birleştirir. Bir bilgi tabanından ilgili belgeleri getirir ve bunları daha doğru ve bilgilendirilmiş yanıtlar üretmek için kullanır.",
     ]
 
     # Add plain texts

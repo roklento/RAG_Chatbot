@@ -56,7 +56,7 @@ class QwenReranker:
 
         # Default instruction based on Qwen3-Reranker documentation
         self.default_instruction = default_instruction or (
-            "Given a web search query, retrieve relevant passages that answer the query"
+            "Bir web arama sorgusu verildiğinde, sorguyu yanıtlayan ilgili pasajları getir"
         )
 
         # Load tokenizer and model

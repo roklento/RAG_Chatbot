@@ -25,10 +25,10 @@ def main():
 
     # Test queries
     test_queries = [
-        "What is masheen lerning?",  # Intentional typo to test correction
-        "Explain transformers architecture",
-        "How does attention mechanism work?",
-        "What is the difference between BERT and GPT?",
+        "Makine öğrenmes ndir?",  # Intentional typo to test correction
+        "Transformer mimarisini açıkla",
+        "Dikkat mekanizması nasıl çalışır?",
+        "BERT ve GPT arasındaki fark nedir?",
     ]
 
     print("\n" + "="*80)
@@ -72,7 +72,7 @@ def test_simple_interface():
     settings = get_settings()
     retriever = create_advanced_retriever(settings)
 
-    query = "What is deep learning?"
+    query = "Derin öğrenme nedir?"
     print(f"Query: {query}\n")
 
     # Simple retrieval

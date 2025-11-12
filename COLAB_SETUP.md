@@ -37,15 +37,24 @@ This guide shows you how to run the complete RAG chatbot in Google Colab using:
 !nvidia-smi
 
 # Clone repository
-!git clone https://github.com/YOUR_USERNAME/RAG_Chatbot.git
+!git clone https://github.com/roklento/RAG_Chatbot.git
 %cd RAG_Chatbot
 
-# Install dependencies
-!pip install -q -r requirements.txt
-!pip install -q "transformers>=4.53.0" # Required for Gemma-3n
+# IMPORTANT: Install Colab-specific requirements
+print("⚙️  Installing dependencies...")
+!pip install -q --upgrade "qdrant-client>=1.10.0"
+!pip install -q --upgrade "transformers>=4.53.0"
+!pip install -q python-dotenv pydantic-settings tiktoken fastembed sentence-transformers accelerate
 
-print("✅ Setup complete!")
+print("\n✅ Dependencies installed!")
+print("\n⚠️  IMPORTANT: Restart runtime now!")
+print("   Runtime → Restart runtime")
+print("   Then continue from Cell 2")
 ```
+
+**⚠️ CRITICAL:** After running Cell 1, you MUST restart the runtime before continuing!
+- Click: `Runtime → Restart runtime`
+- Then start from Cell 2
 
 ### Cell 2: Download Models
 
